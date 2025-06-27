@@ -787,6 +787,7 @@
         <input type="text" id="SATUnamehurigana" placeholder="ふりがなを入力してください" oninput="saveInput('SATUnamehurigana')">
 
         <div class="label">生年月日<span class="required">必須</span></div>
+        <div class="info-text">※例.1998年7月23日は<br>19980723と入れてください</div>
         <input type="tel" id="dateofbirth" placeholder="生年月日を入力してください" oninput="saveInput('dateofbirth')">
 
         <div class="label">性別<span class="required">必須</span></div>
@@ -820,10 +821,9 @@
             <button type="button" onclick="selectSymptom(this, 'treatment8')" data-price="15000">その他</button>
         </div>
         <div class="highlight-background">
-            <span class="highlight-text">ブライダルコース：オプション</span>
+            <span class="highlight-text">オプション</span>
         </div>
         <div class="irradiations">
-            <button type="button" id="firstirradiations" onclick="selectirradiations(this)" data-price="1500">撮影</button>
             <button type="button" id="repeatirradiations" onclick="selectirradiations(this)" data-price="150">着付</button>
             <button type="button" id="sanirradiations" onclick="selectirradiations(this)" data-price="150">ヘアメイク</button>
             <button type="button" id="repeatirradiations" onclick="selectirradiations(this)" data-price="150">衣装レンタル(スタジオ)</button>
@@ -832,6 +832,7 @@
 
         <div class="highlight-background">
             <div class="kibounitizi">希望日時<span class="required">必須</span></div>
+             <div class="info-text">※毎週木曜日と第三水曜日休み</div>
         </div>
 
         <!-- カスタム placeholder 表示用 -->
